@@ -11,11 +11,15 @@
     <main>
         <header>
             <h1>Discover Your Tarot</h1>
-            <p>Welcome to the Three Card Tarot Spread. Let the cards guide your Situation, Blocker, and Advice.</p>
+            <p>Welcome to the Three Card Tarot Spread. Let the cards guide your present, past, and future.</p>
         </header>
         <section id="cardArea">
-            <button id="drawButton">Draw Cards</button>
-            <div id="cardsContainer"></div>
+            <div class="input-group">
+                <label for="birthdate">Enter your Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate">
+                <button id="submitDate">Submit Date</button>
+                <div id="cardsContainer"></div>
+            </div>
         </section>
         <footer>
             <p>© 2024 Tarot Universe. All rights reserved.</p>
