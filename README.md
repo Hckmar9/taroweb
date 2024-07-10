@@ -11,3 +11,6 @@ Welcome to the Tarot Reading Web App, a simple yet powerful tool designed to off
 - **Dynamic Tarot Spreads**: The app offers a three-card tarot spread, providing insights into different aspects of one's life.
 - **Animated Background**: A dark, moving gradient background enhances the user interface, offering a visually appealing experience.
 - **Responsive Design**: Crafted to provide a great experience across various devices and screen sizes.
+
+_This is still a work in progress._
+Soon, I'll connect it to Aztro's API and create the necessary backend.
