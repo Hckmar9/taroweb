@@ -29,7 +29,6 @@ body {
     background-size: 600% 600%;
     animation: movingGradient 10s ease infinite;
     color: #fff;
-    /* color: #4a4e69; */
     display: flex;
     justify-content: center;
     align-items: center;
