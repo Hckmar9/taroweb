@@ -1,4 +1,15 @@
-/* Basic Reset */
+@keyframes movingGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +25,11 @@ body, h1, button, div {
 body {
     font-family: 'Merriweather', serif;
     background-color: #f3f2ef;
-    color: #4a4e69;
+    background: linear-gradient(270deg, #0c1c22, #312558, #204f63);
+    background-size: 600% 600%;
+    animation: movingGradient 10s ease infinite;
+    color: #fff;
+    /* color: #4a4e69; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,14 +52,14 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    color: #6d597a;
+    color: #9c6bbc;
     margin-bottom: 10px;
 }
 
 p {
     font-family: 'Merriweather', serif;
     font-weight: 300;
-    color: #5a5a5a;
+    color: #b6b5b5;
 }
 
 button {
@@ -118,7 +133,7 @@ button:focus {
 .input-group label {
     display: block;
     font-family: 'Montserrat', sans-serif;
-    color: #6d597a;
+    color: #ccc;
     margin-bottom: 10px;
     font-size: 16px;
 }
@@ -128,19 +143,19 @@ input[type="date"] {
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    color: #333;
+    color: #6d597a;
     outline: none;
     transition: border-color 0.3s;
 }
 
 input[type="date"]:focus {
-    border-color: #b56576;
+    border-color: #b6b5b5;
 }
 
 footer {
     text-align: center;
     margin-top: 40px;
-    color: #4a4a4a;
+    color: #b6b5b5;
     padding: 10px 0;
     width: 100%;
 }
