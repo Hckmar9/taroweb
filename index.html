@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarot Reading App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <header>
+            <div class="sigil" aria-hidden="true">☾ ✦ ☽</div>
             <h1>Discover Your Tarot</h1>
             <p>Welcome to the Three Card Tarot Spread. A look at how your week will be, based on your date of birth.</p>
         </header>
@@ -17,11 +20,11 @@
             <div class="input-group">
                 <label for="birthdate">Enter your Birthdate:</label>
                 <input type="date" id="birthdate" name="birthdate">
-                <button id="submitDate">Submit Date</button>
-                <div id="cardsContainer"></div>
+                <button id="submitDate">Reveal My Cards</button>
             </div>
+            <div id="cardsContainer"></div>
         </section>
-        <br>
+        <footer>
             <p>© 2024 Margod's Tarot Universe. All rights reserved.</p>
             <p>Art from: Ryantama Dwiki</p>
         </footer>
